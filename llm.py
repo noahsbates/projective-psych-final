@@ -1,6 +1,5 @@
 from langchain_openai import ChatOpenAI
 import os
-import bs4
 from langchain_community.document_loaders import AsyncChromiumLoader
 from langchain_community.document_transformers import BeautifulSoupTransformer
 #change
